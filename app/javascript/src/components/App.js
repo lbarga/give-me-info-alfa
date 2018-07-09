@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css';
 
 class App extends React.Component {
     constructor(props){
@@ -55,7 +56,10 @@ class App extends React.Component {
         console.log(this.state)
         return (
             <div>
-                <input type="file" onChange={this.fileSelectedHandler} />
+                <h1 className="h1">Upload your pdf, here!</h1>
+            
+                <input className="t1" type="file" onChange={this.fileSelectedHandler} />
+                
                 <button onClick={() => this.postApi()}>Upload</button>
                 <h2>My Upload's</h2>
                 {
