@@ -12,11 +12,12 @@ Rails.application.routes.draw do
   root to: 'home#index'
 end
 
+=>application.html.erb
+<%= javascript_pack_tag 'application' %>
+<%= stylesheet_pack_tag 'application' %>
+
 ===
 
-
-
-===
 gem install foreman
 
 =>Procfile
