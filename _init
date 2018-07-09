@@ -2,6 +2,9 @@ rails new giveMeInfo --webpack=react -d mysql
 
 rake db:drop db:create db:migrate
 
+rails webpacker:install
+rails webpacker:install:react
+
 rails generate controller Home index
 
 =>routes.rb
@@ -11,10 +14,11 @@ end
 
 ===
 
+
+
+===
 gem install foreman
 
 =>Procfile
 web: bundle exec rails s
 webpacker: ./bin/webpack-dev-server
-
-foreman start -p 3000
