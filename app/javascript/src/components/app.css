@@ -1,3 +1,80 @@
-.h1{
-    color: red
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 3px solid #D2E1DF;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
+
+.header{
+    height: 150px;
+}
+
+.logo{
+    position: absolute;
+    width: 250px;
+    left: 39%;
+}
+
+.upload{
+    height: 125px;
+}
+
+.form-upload{
+    width: 180px;
+    height: 125px;
+    left: 44%;
+    position: absolute;
+
+}
+
+.lb-form-upload{
+    position: absolute;
+    font-size: 14px;
+    text-transform: uppercase;
+    top: 5%;
+}
+
+.btn-choose-file{
+    position: absolute;
+    top: 21%;
+    left: 9%;
+}
+
+.btn-upload-file{
+    position: absolute;
+    top: 59%;
+    left: 18%;
+}
+
+.input-file{
+    display: none;
+}
+
+.hr-up{
+    position: absolute;
+    width: 1016px;
+    top: 40%;
+}
+
+
+/* Buttons Styles */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
