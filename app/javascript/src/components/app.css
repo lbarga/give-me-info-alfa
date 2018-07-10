@@ -14,7 +14,8 @@
 .logo{
     position: absolute;
     width: 250px;
-    left: 39%;
+    left: 40%;
+    bottom: 40%;
 }
 
 .upload{
@@ -55,7 +56,7 @@
 .hr-up{
     position: absolute;
     width: 1016px;
-    top: 40%;
+    top: 150px;
 }
 
 
