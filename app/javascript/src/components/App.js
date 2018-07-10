@@ -92,10 +92,12 @@ class App extends React.Component {
                 {
                     this.state.getData.map((data, index) => {
                         return(
-                            <form key={data.id}>
-                                <label>Attachment:</label>
-                                <a href={data.attachment_dir}>Download Info</a>
-                                <br/>
+                            <form className="info" key={data.id}>
+                                <div className="sumir">
+                                    <label>Attachment:</label>
+                                    <a href={data.attachment_dir}>Download Info</a>
+                                </div>
+                                
                                 <label>Content:</label>
                                 <br/>
                                 {data.content} 
