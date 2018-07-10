@@ -65,12 +65,12 @@
     top: 150px;
 }
 
-.clear{
-
+.info{
+    margin-bottom: 25px;
 }
 
-.btn-clear-file{
-
+.sumir{
+    display: none;
 }
 
 
