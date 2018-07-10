@@ -15,3 +15,11 @@ Screenshots:
 
 ![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/mobile_01.png?raw=true)
 ![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/mobile_02.png?raw=true)
+
+<p>
+About: <br/> 
+Parte funcional capaz de subir arquivos pdf e extrair o conteúdo de sua primeira página,<br/>
+Recomendado apenas para arquivos de até 5MB e sem imagens.<br/>
+Esta funcionalidade fará parte de um projeto maior,<br/>
+Sendo objetivo deste repositório melhorar exclusivamente está funcionalidade.<br/>
+</p>
