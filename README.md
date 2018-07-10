@@ -13,8 +13,8 @@ Screenshots:
 ![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/desk_1.png?raw=true)
 ![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/desk_2.png?raw=true)
 
-![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/mobile_01.png?raw=true)
-![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/mobile_02.png?raw=true)
+![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/mobile_01.jpeg?raw=true)
+![alt text](https://github.com/lucasmpbarga/give-me-info-alfa/blob/master/Screenshots/mobile_02.jpeg?raw=true)
 
 <p>
 About: <br/> 
