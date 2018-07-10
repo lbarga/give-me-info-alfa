@@ -1,18 +1,24 @@
 
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: /tmp
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#   host: /tmp
+
+# development:
+#   <<: *default
+#   database: psql
+
+# test:
+#   <<: *default
+#   database: psql
+
+# production:
+#   <<: *default
+#   database: psql
 
 development:
-  <<: *default
-  database: psql
-
-test:
-  <<: *default
-  database: psql
-
-production:
-  <<: *default
-  database: psql
+  adapter: postgresql
+  host: localhost
+  username: user
+  database: app-dev
