@@ -34,7 +34,7 @@ class Api::V1::InfosController < ApplicationController
         end
     end
 
-    def teste
-        p 'teste'
+    def destroy
+        Info.destroy_all
     end
 end

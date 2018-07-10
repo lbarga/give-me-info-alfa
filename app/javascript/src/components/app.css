@@ -11,11 +11,17 @@
     height: 150px;
 }
 
+.d-logo{
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    margin-left: 375px;
+}
+
 .logo{
     position: absolute;
     width: 250px;
-    left: 41%;
-    top: -2%;
+    top: -20px;
 }
 
 .upload{
@@ -57,6 +63,14 @@
     position: absolute;
     width: 1016px;
     top: 150px;
+}
+
+.clear{
+
+}
+
+.btn-clear-file{
+
 }
 
 
