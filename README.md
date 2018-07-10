@@ -1,11 +1,12 @@
 # give-me-info-alfa
 <h3>Hospedado: https://give-me-info-alfa.herokuapp.com/</h3>
-
-=>Starcks:
-Front-End: ReactJS
-Back-End: Rails
-Deploy: Heroku
-<=
+<p>
+=>Stacks:<br/>
+Front-End: ReactJS<br/>
+Back-End: Rails<br/>
+Deploy: Heroku<br/>
+<=<br/>
+</p>
 
 Screenshots:
 
