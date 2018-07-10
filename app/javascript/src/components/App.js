@@ -53,12 +53,27 @@ class App extends React.Component {
         location.reload();
     };
 
+    deleteApi(){
+        fetch('/api/v1/infos/destroy', {
+            method: 'delete'
+        })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+        location.reload();
+    };
+
     render() {
         console.log(this.state)
         return (
             <div className="container">
                 <div className="header">
-                    <img className="logo" src={require('./drive/images/gmi_logo.png')} />
+                    <div className="d-logo">
+                        <img className="logo" src={require('./drive/images/gmi_logo.png')} />
+                    </div>                
                 </div>
                 <hr className="hr-up"></hr>
                 <div className="upload">
@@ -67,6 +82,9 @@ class App extends React.Component {
                         <label for="choose-file" class="button button4 btn-choose-file">Choose File</label>
                         <input id="choose-file" className="input-file" type="file" onChange={this.fileSelectedHandler} />
                         <button className="button button2 btn-upload-file" onClick={() => this.postApi()}>Upload</button>
+                    </div>
+                    <div className="clear">
+                    <button className="button button3 btn-clear-file" onClick={() => this.deleteApi()}>Clear</button>
                     </div>
                 </div>
                 <hr className="hr-2"></hr>
