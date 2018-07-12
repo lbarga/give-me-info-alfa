@@ -1,19 +1,12 @@
 # give-me-info-alfa
-<h3>Hospedado: https://give-me-info-alfa.herokuapp.com/</h3>
-<p>
-=>Stacks:<br/>
-Front-End: ReactJS<br/>
-Back-End: Rails<br/>
-Deploy: Heroku<br/>
-<=<br/>
-</p>
+<h4>Hospedado: https://give-me-info-alfa.herokuapp.com/</h4>
+
+=>Stacks: ReactJS, Rails e Heroku(Deploy)
 
 <p>
-About: <br/> 
-Parte funcional capaz de subir arquivos pdf e extrair o conteúdo de sua primeira página,<br/>
-Recomendado apenas para arquivos de até 5MB e sem imagens.<br/>
-Esta funcionalidade fará parte de um projeto maior,<br/>
-Sendo objetivo deste repositório melhorar exclusivamente está funcionalidade.<br/>
+Sobre: Parte funcional capaz de subir arquivos pdf e extrair o conteúdo de sua primeira página, recomendado apenas para arquivos de até 5MB e sem imagens. Esta funcionalidade fará parte de um projeto maior, sendo objetivo deste repositório melhorar exclusivamente está funcionalidade.<br/>
+Existem arquivos PDF - Lorem Ipsum prontos para serem testados na pasta:</br> 
+https://github.com/lucasmpbarga/give-me-info-alfa/tree/master/pdfs-para-teste
 </p>
 
 Screenshots:
