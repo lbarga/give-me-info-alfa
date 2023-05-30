@@ -1,7 +1,0 @@
-bundle install
-
-yarn install
-
-rake db:drop db:create db:migrate
-
-foreman start -f Procfile -p 3000

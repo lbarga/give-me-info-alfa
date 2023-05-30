@@ -1,2 +1,0 @@
-rails generate model info attachment:text attachment_dir:string
-
